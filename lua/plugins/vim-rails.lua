@@ -1,6 +1,7 @@
 return {
-	"tpope/vim-sleuth", -- Detect tabstop and shiftwidth automatically
-	"tpope/vim-fugitive",
+	{ "tpope/vim-sleuth" }, -- Detect tabstop and shiftwidth automatically
+	{ "tpope/vim-rake" },
+	{ "tpope/vim-fugitive" },
 	{
 		"tpope/vim-bundler",
 		cmd = { "Bundler", "Bopen", "Bsplit", "Btabedit" },
